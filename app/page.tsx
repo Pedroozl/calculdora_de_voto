@@ -77,7 +77,7 @@ export default function IndexPage() {
     }
 
     const handleChange = function(val: string) {
-        if(currentCity && currentCity?.total || currentCity && currentCity?.vagas) return
+        if(currentCity && currentCity?.total && currentCity?.vagas) return
         if(Number(val) > currentCity?.total) {
             setVotesQtn("")
             return  alert("Valor inválido")
