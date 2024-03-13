@@ -91,7 +91,7 @@ export default function IndexPage() {
         console.log("QE > " +tqe)
         console.log("QP > " +tqp)
         console.log("SOBRAS > " +tb)
-        setVotesQtn(Number(val))
+        setVotesQtn(val)
     }
   
   return (
