@@ -1,0 +1,548 @@
+[
+    {
+        "municipio": "AFONSO CLÁUDIO",
+        "homens": 12688,
+        "mulheres": 13243,
+        "naoDeclarados": 9,
+        "total": 25940
+    },
+    {
+        "municipio": "ÁGUA DOCE DO NORTE",
+        "homens": 5751,
+        "mulheres": 5759,
+        "naoDeclarados": 0,
+        "total": 11510
+    },
+    {
+        "municipio": "ÁGUIA BRANCA",
+        "homens": 4569,
+        "mulheres": 4522,
+        "naoDeclarados": 0,
+        "total": 9091
+    },
+    {
+        "municipio": "ALEGRE",
+        "homens": 11683,
+        "mulheres": 12539,
+        "naoDeclarados": 0,
+        "total": 24222
+    },
+    {
+        "municipio": "ALFREDO CHAVES",
+        "homens": 6420,
+        "mulheres": 6431,
+        "naoDeclarados": 9,
+        "total": 12860
+    },
+    {
+        "municipio": "ALTO RIO NOVO",
+        "homens": 3268,
+        "mulheres": 3490,
+        "naoDeclarados": 2,
+        "total": 6760
+    },
+    {
+        "municipio": "ANCHIETA",
+        "homens": 11941,
+        "mulheres": 12597,
+        "naoDeclarados": 0,
+        "total": 24538
+    },
+    {
+        "municipio": "APIACÁ",
+        "homens": 3293,
+        "mulheres": 3317,
+        "naoDeclarados": 0,
+        "total": 6610
+    },
+    {
+        "municipio": "ARACRUZ",
+        "homens": 36853,
+        "mulheres": 38269,
+        "naoDeclarados": 61,
+        "total": 75183
+    },
+    {
+        "municipio": "ATÍLIO VIVÁCQUA",
+        "homens": 4665,
+        "mulheres": 4711,
+        "naoDeclarados": 6,
+        "total": 9382
+    },
+    {
+        "municipio": "BAIXO GUANDU",
+        "homens": 12198,
+        "mulheres": 13191,
+        "naoDeclarados": 0,
+        "total": 25389
+    },
+    {
+        "municipio": "BARRA DE SÃO FRANCISCO",
+        "homens": 16828,
+        "mulheres": 17850,
+        "naoDeclarados": 22,
+        "total": 34700
+    },
+    {
+        "municipio": "BOA ESPERANÇA",
+        "homens": 5579,
+        "mulheres": 5943,
+        "naoDeclarados": 0,
+        "total": 11522
+    },
+    {
+        "municipio": "BOM JESUS DO NORTE",
+        "homens": 4059,
+        "mulheres": 4467,
+        "naoDeclarados": 0,
+        "total": 8526
+    },
+    {
+        "municipio": "BREJETUBA",
+        "homens": 5834,
+        "mulheres": 5412,
+        "naoDeclarados": 2,
+        "total": 11248
+    },
+    {
+        "municipio": "CACHOEIRO DE ITAPEMIRIM",
+        "homens": 62655,
+        "mulheres": 71562,
+        "naoDeclarados": 2,
+        "total": 134219
+    },
+    {
+        "municipio": "CARIACICA",
+        "homens": 130722,
+        "mulheres": 147297,
+        "naoDeclarados": 124,
+        "total": 278143
+    },
+    {
+        "municipio": "CASTELO",
+        "homens": 14837,
+        "mulheres": 15689,
+        "naoDeclarados": 0,
+        "total": 30526
+    },
+    {
+        "municipio": "COLATINA",
+        "homens": 41001,
+        "mulheres": 46112,
+        "naoDeclarados": 7,
+        "total": 87120
+    },
+    {
+        "municipio": "CONCEIÇÃO DA BARRA",
+        "homens": 12620,
+        "mulheres": 13096,
+        "naoDeclarados": 3,
+        "total": 25719
+    },
+    {
+        "municipio": "CONCEIÇÃO DO CASTELO",
+        "homens": 5295,
+        "mulheres": 5367,
+        "naoDeclarados": 2,
+        "total": 10664
+    },
+    {
+        "municipio": "DIVINO DE SÃO LOURENÇO",
+        "homens": 2559,
+        "mulheres": 2400,
+        "naoDeclarados": 0,
+        "total": 4959
+    },
+    {
+        "municipio": "DOMINGOS MARTINS",
+        "homens": 14646,
+        "mulheres": 14635,
+        "naoDeclarados": 0,
+        "total": 29281
+    },
+    {
+        "municipio": "DORES DO RIO PRETO",
+        "homens": 3200,
+        "mulheres": 3198,
+        "naoDeclarados": 0,
+        "total": 6398
+    },
+    {
+        "municipio": "ECOPORANGA",
+        "homens": 9590,
+        "mulheres": 9825,
+        "naoDeclarados": 7,
+        "total": 19422
+    },
+    {
+        "municipio": "FUNDÃO",
+        "homens": 7595,
+        "mulheres": 7700,
+        "naoDeclarados": 18,
+        "total": 15313
+    },
+    {
+        "municipio": "GOVERNADOR LINDENBERG",
+        "homens": 4758,
+        "mulheres": 4571,
+        "naoDeclarados": 4,
+        "total": 9333
+    },
+    {
+        "municipio": "GUAÇUÍ",
+        "homens": 10462,
+        "mulheres": 11873,
+        "naoDeclarados": 9,
+        "total": 22344
+    },
+    {
+        "municipio": "GUARAPARI",
+        "homens": 48048,
+        "mulheres": 52845,
+        "naoDeclarados": 48,
+        "total": 100941
+    },
+    {
+        "municipio": "IBATIBA",
+        "homens": 9363,
+        "mulheres": 10136,
+        "naoDeclarados": 0,
+        "total": 19499
+    },
+    {
+        "municipio": "IBIRAÇU",
+        "homens": 4855,
+        "mulheres": 5217,
+        "naoDeclarados": 0,
+        "total": 10072
+    },
+    {
+        "municipio": "IBITIRAMA",
+        "homens": 3789,
+        "mulheres": 3649,
+        "naoDeclarados": 0,
+        "total": 7438
+    },
+    {
+        "municipio": "ICONHA",
+        "homens": 5760,
+        "mulheres": 5766,
+        "naoDeclarados": 0,
+        "total": 11526
+    },
+    {
+        "municipio": "IRUPI",
+        "homens": 5860,
+        "mulheres": 5738,
+        "naoDeclarados": 3,
+        "total": 11601
+    },
+    {
+        "municipio": "ITAGUAÇU",
+        "homens": 6008,
+        "mulheres": 6066,
+        "naoDeclarados": 0,
+        "total": 12074
+    },
+    {
+        "municipio": "ITAPEMIRIM",
+        "homens": 17563,
+        "mulheres": 19190,
+        "naoDeclarados": 0,
+        "total": 36753
+    },
+    {
+        "municipio": "ITARANA",
+        "homens": 4815,
+        "mulheres": 4781,
+        "naoDeclarados": 0,
+        "total": 9596
+    },
+    {
+        "municipio": "IÚNA",
+        "homens": 10499,
+        "mulheres": 10931,
+        "naoDeclarados": 10,
+        "total": 21440
+    },
+    {
+        "municipio": "JAGUARÉ",
+        "homens": 11840,
+        "mulheres": 12118,
+        "naoDeclarados": 4,
+        "total": 23962
+    },
+    {
+        "municipio": "JERÔNIMO MONTEIRO",
+        "homens": 5021,
+        "mulheres": 5307,
+        "naoDeclarados": 3,
+        "total": 10331
+    },
+    {
+        "municipio": "JOÃO NEIVA",
+        "homens": 6353,
+        "mulheres": 6740,
+        "naoDeclarados": 0,
+        "total": 13093
+    },
+    {
+        "municipio": "LARANJA DA TERRA",
+        "homens": 4820,
+        "mulheres": 4759,
+        "naoDeclarados": 0,
+        "total": 9579
+    },
+    {
+        "municipio": "LINHARES",
+        "homens": 58466,
+        "mulheres": 63592,
+        "naoDeclarados": 118,
+        "total": 122176
+    },
+    {
+        "municipio": "MANTENÓPOLIS",
+        "homens": 5478,
+        "mulheres": 5777,
+        "naoDeclarados": 1,
+        "total": 11256
+    },
+    {
+        "municipio": "MARATAÍZES",
+        "homens": 15543,
+        "mulheres": 17204,
+        "naoDeclarados": 0,
+        "total": 32747
+    },
+    {
+        "municipio": "MARECHAL FLORIANO",
+        "homens": 7254,
+        "mulheres": 7194,
+        "naoDeclarados": 0,
+        "total": 14448
+    },
+    {
+        "municipio": "MARILÂNDIA",
+        "homens": 5426,
+        "mulheres": 5553,
+        "naoDeclarados": 0,
+        "total": 10979
+    },
+    {
+        "municipio": "MIMOSO DO SUL",
+        "homens": 9903,
+        "mulheres": 10083,
+        "naoDeclarados": 0,
+        "total": 19986
+    },
+    {
+        "municipio": "MONTANHA",
+        "homens": 7472,
+        "mulheres": 7915,
+        "naoDeclarados": 23,
+        "total": 15410
+    },
+    {
+        "municipio": "MUCURICI",
+        "homens": 2668,
+        "mulheres": 2624,
+        "naoDeclarados": 0,
+        "total": 5292
+    },
+    {
+        "municipio": "MUNIZ FREIRE",
+        "homens": 7432,
+        "mulheres": 7543,
+        "naoDeclarados": 0,
+        "total": 14975
+    },
+    {
+        "municipio": "MUQUI",
+        "homens": 5629,
+        "mulheres": 5794,
+        "naoDeclarados": 3,
+        "total": 11426
+    },
+    {
+        "municipio": "NOVA VENÉCIA",
+        "homens": 19833,
+        "mulheres": 21171,
+        "naoDeclarados": 8,
+        "total": 41012
+    },
+    {
+        "municipio": "PANCAS",
+        "homens": 8252,
+        "mulheres": 8310,
+        "naoDeclarados": 9,
+        "total": 16571
+    },
+    {
+        "municipio": "PEDRO CANÁRIO",
+        "homens": 9423,
+        "mulheres": 9715,
+        "naoDeclarados": 4,
+        "total": 19142
+    },
+    {
+        "municipio": "PINHEIROS",
+        "homens": 8920,
+        "mulheres": 9813,
+        "naoDeclarados": 11,
+        "total": 18744
+    },
+    {
+        "municipio": "PIÚMA",
+        "homens": 8062,
+        "mulheres": 8974,
+        "naoDeclarados": 0,
+        "total": 17036
+    },
+    {
+        "municipio": "PONTO BELO",
+        "homens": 3296,
+        "mulheres": 3359,
+        "naoDeclarados": 0,
+        "total": 6655
+    },
+    {
+        "municipio": "PRESIDENTE KENNEDY",
+        "homens": 6540,
+        "mulheres": 6751,
+        "naoDeclarados": 0,
+        "total": 13291
+    },
+    {
+        "municipio": "RIO BANANAL",
+        "homens": 8018,
+        "mulheres": 7879,
+        "naoDeclarados": 13,
+        "total": 15910
+    },
+    {
+        "municipio": "RIO NOVO DO SUL",
+        "homens": 4411,
+        "mulheres": 4512,
+        "naoDeclarados": 0,
+        "total": 8923
+    },
+    {
+        "municipio": "SANTA LEOPOLDINA",
+        "homens": 5348,
+        "mulheres": 4971,
+        "naoDeclarados": 0,
+        "total": 10319
+    },
+    {
+        "municipio": "SANTA MARIA DE JETIBÁ",
+        "homens": 15582,
+        "mulheres": 15721,
+        "naoDeclarados": 16,
+        "total": 31319
+    },
+    {
+        "municipio": "SANTA TERESA",
+        "homens": 10175,
+        "mulheres": 10303,
+        "naoDeclarados": 0,
+        "total": 20478
+    },
+    {
+        "municipio": "SÃO DOMINGOS DO NORTE",
+        "homens": 4410,
+        "mulheres": 4166,
+        "naoDeclarados": 0,
+        "total": 8576
+    },
+    {
+        "municipio": "SÃO GABRIEL DA PALHA",
+        "homens": 12551,
+        "mulheres": 13774,
+        "naoDeclarados": 10,
+        "total": 26335
+    },
+    {
+        "municipio": "SÃO JOSÉ DO CALÇADO",
+        "homens": 4670,
+        "mulheres": 4880,
+        "naoDeclarados": 0,
+        "total": 9550
+    },
+    {
+        "municipio": "SÃO MATEUS",
+        "homens": 43964,
+        "mulheres": 47704,
+        "naoDeclarados": 47,
+        "total": 91715
+    },
+    {
+        "municipio": "SÃO ROQUE DO CANAÃ",
+        "homens": 5098,
+        "mulheres": 4908,
+        "naoDeclarados": 0,
+        "total": 10006
+    },
+    {
+        "municipio": "SERRA",
+        "homens": 170597,
+        "mulheres": 191891,
+        "naoDeclarados": 94,
+        "total": 362582
+    },
+    {
+        "municipio": "SOORETAMA",
+        "homens": 10485,
+        "mulheres": 10801,
+        "naoDeclarados": 7,
+        "total": 21293
+    },
+    {
+        "municipio": "VARGEM ALTA",
+        "homens": 8078,
+        "mulheres": 7871,
+        "naoDeclarados": 9,
+        "total": 15958
+    },
+    {
+        "municipio": "VENDA NOVA DO IMIGRANTE",
+        "homens": 9703,
+        "mulheres": 10140,
+        "naoDeclarados": 5,
+        "total": 19848
+    },
+    {
+        "municipio": "VIANA",
+        "homens": 25830,
+        "mulheres": 28459,
+        "naoDeclarados": 0,
+        "total": 54289
+    },
+    {
+        "municipio": "VILA PAVÃO",
+        "homens": 3976,
+        "mulheres": 3859,
+        "naoDeclarados": 0,
+        "total": 7835
+    },
+    {
+        "municipio": "VILA VALÉRIO",
+        "homens": 6751,
+        "mulheres": 6446,
+        "naoDeclarados": 0,
+        "total": 13197
+    },
+    {
+        "municipio": "VILA VELHA",
+        "homens": 157958,
+        "mulheres": 187275,
+        "naoDeclarados": 4,
+        "total": 345237
+    },
+    {
+        "municipio": "VITÓRIA",
+        "homens": 120588,
+        "mulheres": 146006,
+        "naoDeclarados": 1,
+        "total": 266595
+    }
+]

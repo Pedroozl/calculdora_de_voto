@@ -31,8 +31,8 @@ async function writeonceone(tmp: any) {
                 municipio.habitantes = dataj
             }
         }
-        
-        interface data {
+*/        
+interface data {
     min: number
     max: number
     vagas: number
@@ -48,4 +48,4 @@ async function getQntt(valor: number) {
         }
     }
     return t
-}*/
+}

@@ -63,7 +63,6 @@ export default function IndexPage() {
             })
             var data = await res.json()
             setCitys(data.municipios)
-            console.log(data)
             setLoading(false)
         }
         l()
@@ -82,15 +81,8 @@ export default function IndexPage() {
             setVotesQtn("")
             return  alert("Valor inválido")
         }
-        var tqe = Math.round((currentCity?.total / currentCity?.vagas))
-        setQE(tqe)
-        var tqp = Math.round((Number(val) / tqe))
+        var tqp = Math.round((Number(val) / QE))
         setQP(tqp)
-        var tb = Math.round((Number(val) * 100) / tqe)
-        setB(tb)
-        console.log("QE > " +tqe)
-        console.log("QP > " +tqp)
-        console.log("SOBRAS > " +tb)
         setVotesQtn(val)
     }
   
@@ -115,7 +107,11 @@ export default function IndexPage() {
                                             aria-label="Selecione uma cidade"
                                             className={cn("w-full justify-between")}
                                         >
-                                            {currentCity ? currentCity?.municipio : ""}
+                                            {currentCity ? (
+                                                <>
+                                                    {currentCity?.municipio} ({currentCity?.total.toLocaleString("pt-br")})
+                                                </>
+                                            ) : ""}
                                         </Button>
                                     </PopoverTrigger>
                                     <PopoverContent className="w-[450px] p-0">
@@ -129,9 +125,14 @@ export default function IndexPage() {
                                                             onSelect={() => {
                                                                 setCurrentCity(city)
                                                                 setOpen(false)
+                                                                var tqe = Math.round((city?.total / city?.vagas))
+                                                                setQE(tqe)
+                                                                var tb = Math.round((10 / 100) * tqe)
+                                                                setB(tb)
+                                                                setVotesQtn("")
                                                             }}
                                                             className="text-sm w-full">
-                                                            {city.municipio}
+                                                            {city.municipio} ({city.total.toLocaleString("pt-br")})
                                                         </CommandItem>
                                                     </>
                                                 ))}
@@ -142,17 +143,18 @@ export default function IndexPage() {
                             </Dialog>
                         </div>
                         <div className="w-full mb-4">
-                            <Label className="font-bold">Votos aproximados</Label>
+                            <Label className="font-bold">Votos validos (aproximados)</Label>
                             <Input value={votesQtn} maxLength={String(currentCity?.total).length} type={"text"} onChange={(evt) => { handleChange(evt.target.value) }}/>
                         </div>
                         <div className="w-full mb-4">
-                            {currentCity && votesQtn ? (
+                            {currentCity ? (
                                 <>
-                                    <h2 className="font-bold">Total de votos: {Number(currentCity?.total).toLocaleString('pt-br')} (H: {Number(currentCity?.homens).toLocaleString('pt-br')} M: {Number(currentCity?.mulheres).toLocaleString('pt-br')}) </h2>
-                                    <h2 className="font-bold">Total de habitantes: {Number(currentCity?.habitantes).toLocaleString('pt-br') || 0}</h2>
-                                    <h2 className="font-bold">Total de cadeiras: {Number(currentCity?.vagas).toLocaleString('pt-br') || 0}</h2>
+                                    <h2 className="font-bold">TOTAL DE ELEITORADO: {Number(currentCity?.total).toLocaleString('pt-br')} </h2>
+                                    <h2 className="font-bold">HABITANTES: {Number(currentCity?.habitantes).toLocaleString('pt-br') || 0}</h2>
+                                    <h2 className="font-bold">CADEIRAS: {Number(currentCity?.vagas).toLocaleString('pt-br') || 0}</h2>
                                     <h2 className="font-bold">QUOCIENTE ELEITORAL (QE): {Number(QE).toLocaleString('pt-br') || 0}</h2>
                                     <h2 className="font-bold">QUOCIENTE PARTIDÁRIO (QP): {Number(QP).toLocaleString('pt-br') || 0}</h2>
+                                    <h2 className="font-bold">CLAÚSULA DE BARREIRA (CB): {B} VOTOS</h2>
                                 </>
                             ) : ""}
                         </div>
