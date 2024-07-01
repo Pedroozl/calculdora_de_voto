@@ -40,6 +40,7 @@ interface cityInter {
     id: number
     habitantes: number
 }
+
 export default function IndexPage() {
     const [loading, setLoading] = useState<boolean>(true)
     const [open, setOpen] = useState(false)
@@ -62,11 +63,13 @@ export default function IndexPage() {
                 },
             })
             var data = await res.json()
-            setCitys(data.municipios)
+            setCitys(data)
             setLoading(false)
         }
         l()
     }, [])
+
+
     if(loading) {
         return (
             <section className="container grid items-center justify-center gap-6 pb-8 pt-6 md:py-10">
