@@ -30,6 +30,7 @@ import {
   } from "@/components/ui/card"
 import { cn } from "@/lib/utils"
 import { Dialog } from "@/components/ui/dialog"
+import { SiteHeader } from "@/components/site-header"
 
 interface cityInter {
     municipio: string
@@ -84,16 +85,21 @@ export default function IndexPage() {
             setVotesQtn("")
             return  alert("Valor inválido")
         }
-        var tqp = Math.round((Number(val) / QE))
-        setQP(tqp)
+        var tqe = Math.round((Number(val) / currentCity?.vagas))
+        setQE(tqe)
+        var tqp = Math.round((Number(val) / tqe))
+        setQP(tqp ?? 0)
+        var tb = Math.round((10 / 100) * tqe)
+        setB(tb)
         setVotesQtn(val)
     }
   
   return (
     <>
+        <SiteHeader />
         <section className="container grid items-center justify-center gap-6 pb-8 pt-6 md:py-10">
             <div className="flex max-w-full items-center justify-center gap-2">
-                <Card className="w-[500px]">
+                <Card className="w-[350px]">
                     <CardHeader className="text-center">
                         <CardTitle>Calculadora de votos</CardTitle>
                     </CardHeader>
@@ -117,7 +123,7 @@ export default function IndexPage() {
                                             ) : ""}
                                         </Button>
                                     </PopoverTrigger>
-                                    <PopoverContent className="w-[450px] p-0">
+                                    <PopoverContent className="w-[250px] p-0">
                                         <Command className="w-full">
                                             <CommandInput className="w-full" placeholder="Digite a cidade" />
                                             <CommandList className="w-full">
@@ -128,10 +134,6 @@ export default function IndexPage() {
                                                             onSelect={() => {
                                                                 setCurrentCity(city)
                                                                 setOpen(false)
-                                                                var tqe = Math.round((city?.total / city?.vagas))
-                                                                setQE(tqe)
-                                                                var tb = Math.round((10 / 100) * tqe)
-                                                                setB(tb)
                                                                 setVotesQtn("")
                                                             }}
                                                             className="text-sm w-full">
@@ -157,7 +159,7 @@ export default function IndexPage() {
                                     <h2 className="font-bold">CADEIRAS: {Number(currentCity?.vagas).toLocaleString('pt-br') || 0}</h2>
                                     <h2 className="font-bold">QUOCIENTE ELEITORAL (QE): {Number(QE).toLocaleString('pt-br') || 0}</h2>
                                     <h2 className="font-bold">QUOCIENTE PARTIDÁRIO (QP): {Number(QP).toLocaleString('pt-br') || 0}</h2>
-                                    <h2 className="font-bold">CLAÚSULA DE BARREIRA (CB): {B} VOTOS</h2>
+                                    <h2 className="font-bold">CLAÚSULA DE BARREIRA (CB): {B}</h2>
                                 </>
                             ) : ""}
                         </div>
